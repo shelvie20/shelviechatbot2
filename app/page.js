@@ -82,7 +82,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-8">
       <Container>
-        <Title>Tanya Riska</Title>
+        <Title>Tanya CERIA</Title>
         <ChatWindow ref={containerRef} >
           {messages.map((msg, index) => (
             <ChatMessage key={"message" + index} user={msg.userType}>
